@@ -1,15 +1,16 @@
 body {
     margin: 0;
-    background-color: #B0F4A9;
+    background-color: rgb(241, 223, 200);
 }
 header {
     background-image: linear-gradient(to bottom, #90e487, #154a10);
     color: white; text-shadow: #32442f 0.1em 0.1em 0.2em;
     box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.534);
+    width: 100%;
 }
 header > h1 {
-    margin: 0px;
     padding: 10px;
+    margin: 0px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -21,18 +22,24 @@ header > nav {
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     text-transform: uppercase;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 5px 10px 0px;
 }
 nav > a {
-    background-color: #1f6d17;
     color: white;
     text-decoration: none;
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 5px 5px 5px 5px;
 }
 a:hover {
-    color: red;
+    background-color: #749670cc;
+    border-radius: 6px;
+    transition: 0.3s;
+    color: black;
     text-decoration: underline;
+}
+a:active {
+    transition: 0.1s;
+    color:red;
+    font-size: 90%;
 }
 div > h1 {
     margin: 0px;
@@ -42,7 +49,7 @@ div > h1 {
 #conteudo {
     background-color: white;
     box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.705);
-    margin: 1px 100px 0 100px;
+    margin: 0px 10% 0 10%;
     padding: 10px 10px 10px 10px;
 }
 #conteudo > h2 {
@@ -74,4 +81,10 @@ footer {
 footer > p {
     margin: 0px;
     padding: 5px;
+}
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
