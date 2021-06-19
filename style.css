@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: #B0F4A9;
+}
+header {
+    background-image: linear-gradient(to bottom, #90e487, #154a10);
+    color: white; text-shadow: #32442f 0.1em 0.1em 0.2em;
+    box-shadow: -1px 3px 6px rgba(0, 0, 0, 0.534);
+}
+header > h1 {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+header > h2 {
+    text-align: center;
+}
+header > nav {
+    background-color: #336d2d;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-transform: uppercase;
+    padding: 10px 0px 10px 0px;
+}
+nav > a {
+    background-color: #1f6d17;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+div > h1 {
+    margin: 0px;
+    color: #154a10;
+    text-transform: uppercase;
+}
+#conteudo {
+    background-color: white;
+    box-shadow: 1px 2px 9px rgba(0, 0, 0, 0.705);
+    margin: 1px 100px 0 100px;
+    padding: 10px 10px 10px 10px;
+}
+#conteudo > h2 {
+    text-transform: uppercase;
+    color: #154a10;
+    background-image: linear-gradient(to right, #b0f4a9, white);
+
+}
+.extra {
+    padding: 10px;
+    background-color: #90e487;
+    border-radius: 0px 0px 20px 20px;
+}
+.extra-title {
+    font-size: 125%;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+    background-color: #32442f;
+    color: white;
+}
+.extra > p {
+    margin-top: 0px;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #154a10;
+}
+footer > p {
+    margin: 0px;
+    padding: 5px;
+}
